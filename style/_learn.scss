@@ -1,0 +1,100 @@
+.learn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 59px;
+  margin-top: 47px;
+
+  .learn_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+    .learn_card {
+      padding: 100px 89px 9px 19px;
+      h3 {
+        color: $color-white;
+        font-size: 22px;
+        font-weight: 900;
+        line-height: 118.182%;
+      }
+      p {
+        color: $color-white;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 116.667%;
+      }
+    }
+    .learn_card:first-child {
+      background: url(../images/frankiye.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .learn_card:nth-child(2) {
+      background: url(../images/camile.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .learn_card:last-child {
+      background: url(../images/elyane.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+  .learn_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    span {
+      display: none;
+    }
+    h2 {
+      color: $color-black;
+      text-align: center;
+      font-family: "Playfair Display", serif;
+      font-size: 26px;
+      font-weight: 900;
+      line-height: 138.462%;
+      max-width: 79%;
+    }
+  }
+  .input_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    input {
+      padding: 13px 100px 14px 14px;
+      color: $color-black;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 115.385%;
+      letter-spacing: 0.65px;
+      border-radius: 5px;
+      border: 1px solid #9f9f9f;
+      background: #fff;
+    }
+    button {
+      color: $color-white;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 900;
+      line-height: 115.385%;
+      letter-spacing: 0.65px;
+      padding: 13px 21px;
+      background: $color-btn;
+    }
+    a {
+      color: $color-btn;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 116.667%;
+      letter-spacing: 0.6px;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.Brands {
+  margin-top: 54px;
+  h2 {
+    color: $color-black;
+    text-align: center;
+    font-family: "Playfair Display" serif;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 138.462%;
+  }
+  .brands_bottom {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(6, auto);
+    row-gap: 33px;
+    margin-top: 30px;
+    padding: 0 25px;
+    .brands_img:nth-child(3) {
+      grid-column: 1/2;
+    }
+    .brands_img:last-child {
+      grid-column: 3/4;
+    }
+    .brands_img:first-child {
+      grid-column: 1/2;
+      grid-row: 2;
+    }
+    .brands_img:nth-child(4) {
+      grid-column: 3/4;
+      grid-row: 2;
+    }
+    .brands_img:nth-child(3) {
+      grid-column: 2/3;
+      grid-row: 3;
+    }
+  }
+}

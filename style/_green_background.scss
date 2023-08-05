@@ -1,0 +1,29 @@
+.green_background {
+  background-color: $color-btn;
+  padding: 43px 30px 59px 30px;
+  margin-top: 58px;
+  .green_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    h2 {
+      color: $color-white;
+      text-align: center;
+      font-family: "Playfair Display", serif;
+      font-size: 42px;
+      font-weight: 900;
+      line-height: 114.286%;
+    }
+    button {
+      padding: 13px 23px;
+      color: $color-btn;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 900;
+      line-height: 115.385%;
+      letter-spacing: 0.65px;
+      background-color: $color-white;
+    }
+  }
+}

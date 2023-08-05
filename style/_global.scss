@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+.container {
+  max-width: 94%;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+}
+main {
+  background-image: url(../images/phone_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+ul {
+  list-style: none;
+}
+@media screen and (min-width: 746px) {
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  body {
+    background-image: url(../images/body_bacground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  // main {
+  //   background-image: none;
+  // }
+}
