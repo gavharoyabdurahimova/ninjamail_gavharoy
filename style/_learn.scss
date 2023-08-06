@@ -98,3 +98,69 @@
     }
   }
 }
+@media screen and (min-width: 746px) {
+  .learn {
+    margin-top: 87px;
+    .learn_top {
+      flex-direction: row;
+      .learn_card {
+        padding: 100px 110px 9px 19px;
+      }
+    }
+    .learn_bottom {
+      gap: 13px;
+      h2 {
+        font-size: 28px;
+        max-width: 591px;
+      }
+      span {
+        display: block;
+        color: $color-btn;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 115.385%;
+        letter-spacing: 0.65px;
+        margin-right: 243px;
+      }
+    }
+    .input_btn {
+      flex-direction: row;
+      gap: 17px;
+      a {
+        display: none;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .learn {
+    .learn_top {
+      gap: 32px;
+      .learn_card {
+        padding: 150px 150px 9px 27px;
+      }
+    }
+    .learn_bottom {
+      gap: 20px;
+      span {
+        font-size: 21px;
+        margin-left: -192px;
+      }
+      h2 {
+        font-size: 44px;
+        max-width: 850px;
+      }
+    }
+    .input_btn {
+      gap: 27px;
+      input {
+        padding: 19px 200px 21px 25px;
+        font-size: 21px;
+      }
+      button {
+        padding: 19px 30px 21px 30px;
+        font-size: 21px;
+      }
+    }
+  }
+}

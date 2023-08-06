@@ -27,3 +27,24 @@
     }
   }
 }
+@media screen and (min-width: 746px) {
+  .green_background {
+    padding: 45px 75px 59px 75px;
+    margin-top: 70px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .green_background {
+    padding-top: 82px;
+    padding-bottom: 97px;
+    .green_text {
+      gap: 40px;
+      h2 {
+        font-size: 60px;
+      }
+      button {
+        padding: 19px 30px;
+      }
+    }
+  }
+}

@@ -61,3 +61,17 @@
     }
   }
 }
+@media screen and (min-width: 1200px) {
+  .section_video {
+    .video {
+      gap: 60px;
+      h2 {
+        font-size: 60px;
+      }
+      button {
+        padding: 19px 32px;
+        font-size: 19px;
+      }
+    }
+  }
+}
